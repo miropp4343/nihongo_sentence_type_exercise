@@ -1,0 +1,78 @@
+
+
+
+.outside_box {
+  color:rgb(243, 16, 27);
+  
+}
+
+.not_key_color {
+  color:rgb(24, 5, 6);
+  font-weight:bolder;
+  border-bottom:#000000 2px solid;
+  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+}
+
+.keyin_colored {
+  color:rgb(243, 16, 27);
+  font-weight:bolder;
+  border-bottom:#000000 2px solid;
+  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+}
+
+
+
+
+.romaji_color {
+  color:rgb(241, 8, 8);
+  font-size: 1px;
+}
+.romaji_no_color {
+  color:rgb(17, 16, 16);
+  font-size: 1px;
+}
+
+
+.hira_color {
+  color:rgb(241, 8, 8);
+  font-size: 2px;
+}
+
+
+.hira_no_color {
+  color:rgb(17, 16, 16);
+  font-size: 2px;
+}
+
+.row_box {
+  flex-direction: row;
+}
+
+.contain_flexbox {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-Self: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px 0 0;
+  /*background-color: blueviolet;*/
+}
+
+.contain_flexbox:hover{
+  background-color: rgb(206, 192, 64); 
+}
+.full_flexbox {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-Self: center;
+  /*justify-content: flex-end;*/
+  flex-wrap: wrap;
+  padding: 3% 3% 3% 3%;
+  border-bottom:#000000 3px solid;
+  border-top:#000000 3px solid;
+  border-left:#000000 3px solid;
+  border-right:#000000 3px solid;
+  /*background-color: rgb(226, 192, 43);*/
+}

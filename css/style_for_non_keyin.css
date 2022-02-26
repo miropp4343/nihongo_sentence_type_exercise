@@ -1,0 +1,18 @@
+
+
+
+.second_str {
+  color:rgba(68, 66, 70, 0.897);
+  font-size: xx-small;
+  line-height:5%;
+}
+
+.colored_find_str {
+  color:rgb(196, 7, 16);
+  font-weight:bolder;
+}
+.default_str {
+  color:rgb(8, 1, 1);
+  font-weight:normal;
+}
+
