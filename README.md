@@ -33,14 +33,17 @@ Build Envrionment Setup
 
 
 
-
+Usage
+=============
+HTML
 
 ```
 <script src="javascript/main_render.js"></script>
 ```
 
-Declared Render Class
-=============
+# Code Snippet #
+## Declared Render Class ##
+
 
 ```
 class WordContainer  {
